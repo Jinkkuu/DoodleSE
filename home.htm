@@ -4,15 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <style>
         @font-face { font-family: URW Gothic L; src: url('font.ttf'); } 
-	.footer {
-	  position: fixed;
-	  left: 0;
-	  right: 0;
-	  bottom: 0;
-	  width: 100%;
-	  background-color: black;
-	  color: white;
-          font-size:12;
+	.content {
+	  height:50%;
+	  width:50%;
+	  margin: auto;
+	  text-align:center;
 	}
 	.warn {
 	  position: fixed;
@@ -40,16 +36,23 @@
           text-align:center;
           font-family: URW Gothic L;
 	}
+	.footer {
+	  position: fixed;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: black;
+	  color: white;
+          font-size:12;
+	}
       h1  {
          font-family: URW Gothic L;
-         margin: 10px 0px 0px 10px;
-	 display: inline-block;
-	 width: 140px;
-	 text-align: left;
+         margin: 50px 0px -30px 0px;
       }
       h2  {
          font-family: URW Gothic L;
-	 margin: -5px 0px 5px 10px;
+         margin: 30px 0px -10px 0px;
       }
       h3  {
          font-family: URW Gothic L
@@ -68,4 +71,4 @@
 	}
     </style>
    </head>
-   <body style="background-color:+bgcolor+;color:+color+;">+holiday+<div style="margin: -60px 0px 25px 100px;"><form  action="/" method="GET"><input type="text" id="seo"  name="seo" minlength="0" maxlength="64" value="+searchname+" required><button type="submit">Search</button></form></div>
+ <body style="background-color:+bgcolor+;color:+color+;"><div class="content">+holiday+<form style="margin: 15px 0px 0px 0px;" action="/" method="GET"><input type="text" id="seo"  name="seo" minlength="0" maxlength="64" required><button type="submit">Search</button></div></body>
